@@ -1,0 +1,78 @@
+/* @override 
+	http://n3krozoft.com/core/themes/dsgn/css/dev/20-custom.css */
+
+
+body,
+blockquote,
+.post-navigation .meta-nav,
+.wp-caption-text, .gallery-caption,
+.pull-right, .pull-left,
+.widget-area .site-description,
+.widget-area .widget-title, .widget-area .widgettitle ,
+.comment-cite,
+.comment-time, .comment-edit-link ,
+.comment-reply-title small a,
+.logged-in-as, .comment-notes,
+.entry-title, .post-type-archive-jetpack-portfolio .page-title,
+button, input, select, textarea,
+.entry-title,.page-title,
+.meta-list,
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Cardo", "Times New Roman", serif;
+	/* cardo, "europa", "tablet-gothic", Chivo, Arimo, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+}
+
+.page-title,
+.entry-title,
+h1,h2,h3,h4,h5,h6,
+.entry-meta strong,
+.post-navigation .nav-next, .post-navigation .nav-previous {
+	font-weight: 400;
+	font-family: "Pathway Gothic One", sans-serif;
+}
+
+.entry-meta strong {
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+
+body {
+/*	background: #c6c6c6;*/
+}
+
+.entry-content {
+	line-height: 1.3;
+}
+
+/* @group Galleries */
+
+.gallery-item {
+	padding-right: 3%;
+	padding-bottom: 2%;
+}
+
+.gallery-caption {
+	display: none;
+}
+
+.jp-carousel-image-meta {
+	display: none;
+}
+#jp-carousel-comments-loading { 
+	display: none !important; 
+}
+
+/* @end */
+
+.portfolio-column.post .entry-title {
+	font-weight: 400;
+}
+
+.portfolio-column.post .featured-image {
+	background: #c6c6c6;
+}
+
+.portfolio-column.post .featured-image  img {
+	margin: 0 auto;
+}

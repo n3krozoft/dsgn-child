@@ -1,0 +1,225 @@
+/* @override 
+	http://festivalfacez.ch/wp/wp-content/themes/face-z/css/dev/30-mediaqueries.css */
+
+
+.vignette {
+	margin-bottom: 1.5em;
+}
+
+.vignette-title {
+	background: #000;
+	position: absolute;
+	left:  0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+.vignette a {
+	text-decoration: none;
+	display: block;
+	position: relative;
+}
+
+.vignette a .vignette-title  {
+	color: #fff;
+	margin: 0;
+	padding: 0.5em;
+	font-size: 130%;
+}
+
+.vignette img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+.site-content .page {
+	padding-bottom: 10px;
+	padding-bottom: 2em;
+}
+
+@media screen and (min-width: 320px) {
+
+	.vignette {
+		border: 0px solid #333;
+		width: 45%;
+		margin-right: 5%;
+		float: left;
+		margin-bottom: 5%;
+	}
+	
+	
+}
+
+/* Minimum width of 767 pixels (tablets portrait)
+------------------------------------------------------------------------------------ */
+
+@media screen and (min-width: 767px) {
+		#masthead {
+			padding-left: 26px;
+		}
+		#site-nav ul.menu {
+			padding-left: 0px;
+		}
+}
+
+@media screen and (min-width: 900px) {
+
+	.vignette {
+		width: 30%;
+		margin-right: 3%;
+		margin-bottom: 3%;
+	}
+	
+	
+	.site-content h1.entry-title {
+		font-size: 370%;
+	}
+	
+	.site-content h1.has-subpage {
+		font-size: 370%;
+	}
+	
+	.site-content h2 {
+		font-size: 140%;
+	}
+	
+	.site-content p {
+		font-size: 130%;
+		line-height: 1.4;
+	}
+	
+	
+}
+
+/*
+ * 1023px = Main Breakpoint for Mobile vs Desktop
+*/
+
+
+@media screen and (min-width: 1023px) {
+		
+		.clear-if-wide {
+			clear: left;
+			display: block;
+		}
+		
+		body #site-title h1 a {
+			background-color: #fff;
+			color: #333;
+			
+			font: 0/0 a;
+			text-shadow: none;
+			color: transparent;
+			
+			background-image: url('../../img/facez-logo.png');
+			background-size: contain;
+			background-repeat: no-repeat;
+			width:  200px;
+			height: 366px;
+		}
+		
+		body.page-template-page-noire-php #site-title h1 a,
+		body.home #site-title h1 a {
+			background-image: url('../../img/facez-logo-white.png');
+			background-color: #000;
+			opacity: 1;	
+		}
+		
+		body #site-title .site-description {
+			max-width: 200px;
+			margin: 20px 0 0 0;
+		}
+		
+		.site-content .page {
+				padding-bottom: 10px;
+				padding-bottom: 2em;
+			}
+		
+		
+		/* @group Menu Overrides */
+		
+				
+				#site-nav ul li.menu-item-14 {
+					padding-top: 1em;
+					margin-top: 1em;
+					border-top: 1px solid #ccc;
+					padding-bottom: 1em;
+					margin-bottom: 0em;
+				}
+		
+		#site-nav ul li.menu-item-15 a,
+		#site-nav ul li.menu-item-19 a,
+		#site-nav ul li.menu-item-20 a {
+			font-size: 160%;
+			color: #999999;
+		}
+		
+		
+		#site-nav ul li.menu-item-14 a {
+			font-size: 300%;
+			color: #999999;
+		}
+		
+		#site-nav ul li.menu-item-20,
+		#site-nav ul li.menu-item-15,
+		#site-nav ul li.menu-item-19 {
+			padding-top: 0.8em;
+			padding-bottom: 0.8em;
+			
+			border-top: 1px solid #ccc;
+		}
+		
+		/* Contact: item-20 */
+		#site-nav ul li.menu-item-20 {			
+		}
+		
+		/* A propos: item-15 */
+		#site-nav ul li.menu-item-15 {
+		}
+		
+		/* Archives: item-15 */
+		#site-nav ul li.menu-item-19 {
+			border-bottom: 1px solid #ccc;
+		}
+
+		
+		/* @end */
+}
+
+@media screen and (min-width: 1270px) {
+			
+			.post .entry-header,
+				.post .entry-content,
+				.post .entry-footer,
+				.site-content .page,
+				#comments,
+				#nav-below,
+				#nav-single,
+				#nav-image,
+				#nav-comments,
+				.wp-pagenavi,
+				.archive-header,
+				.search-results .site-content .page,
+				.entry-thumbnail,
+				#disqus_thread {
+/*					max-width: 720px;*/
+					max-width: 100%;
+					margin: 0 auto;
+					margin-left: 0;
+/*					background-color: #0f0;*/
+				}
+			
+			
+			.site-content .post,
+				.site-content .type-attachment,
+				.search-results .site-content .page,
+				#colophon {
+				padding-top: 10px;
+			}
+			
+			body #site-title .site-description {
+				display: block;
+			}
+}
